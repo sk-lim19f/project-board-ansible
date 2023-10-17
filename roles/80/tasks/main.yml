@@ -1,0 +1,9 @@
+
+- include: insert_conf_nginx.yml
+  become: true
+
+- include: stop_nginx.yml
+  become: true
+
+- include: start_nginx.yml
+  become: true

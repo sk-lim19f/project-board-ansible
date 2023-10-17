@@ -1,0 +1,5 @@
+default_user : ec2-user
+default_group : ec2-user
+
+deploy_src_path : /var/lib/jenkins/workspace/project-board/build/lib/project.board.v1.1.jar
+deploy_dest_path : /home/ec2-user

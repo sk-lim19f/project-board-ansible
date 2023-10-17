@@ -5,6 +5,6 @@
     - "vars/all.yml"
 
   roles:
-    - deploy
+    - 8080
 
 # ansible-playbook deploy.yml -i ./hosts --extra-vars "deploy_hosts=app"
